@@ -1,0 +1,9 @@
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+@mixin content-width {
+  width: 90%;
+  margin: 0 auto;
+  max-width: $contentMaxWidth;
+}

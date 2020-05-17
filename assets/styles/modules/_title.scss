@@ -1,0 +1,16 @@
+@mixin title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@mixin main-title {
+  font-weight: 600;
+  margin-bottom: 0;
+  display: block;
+  font-size: 25px;
+}
+
+@mixin sub-title {
+  color: $cSubTitle;
+  font-size: 14px;
+}
