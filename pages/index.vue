@@ -18,21 +18,9 @@
       </ul>
     </div>
     <div class="page-icon">
-      <a
-        href="https://twitter.com/shin_yolo1006"
-        target="_blank"
-        class="fa fa-github"
-      ></a>
-      <a
-        href="https://twitter.com/shin_yolo1006"
-        target="_blank"
-        class="fa fa-twitter"
-      ></a>
-      <a
-        href="https://www.instagram.com/ns_kny106/?hl=ja"
-        target="_blank"
-        class="fa fa-instagram"
-      ></a>
+      <a href="https://github.com/shin-yolo" target="_blank" class="fa fa-github"></a>
+      <a href="https://twitter.com/shin_yolo1006" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/ns_kny106/?hl=ja" target="_blank" class="fa fa-instagram"></a>
     </div>
   </div>
 </template>
