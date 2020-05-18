@@ -1,7 +1,10 @@
 <template>
   <div class="page-index">
     <div class="page-container">
-      <h2 class="page-title">Nakashin Portfolio</h2>
+      <h2 class="page-title">
+        <span class="page-color">Hello</span> World!!
+      </h2>
+      <h3 class="page-subtitle">Welcome to ShinyaNakano's portfolio site!</h3>
       <ul class="page-ul">
         <li class="page-li">
           <nuxt-link to="/about">About</nuxt-link>
@@ -32,8 +35,6 @@ export default {};
 
 <style lang="scss" scoped>
 .page-container {
-  background-image: url("~@/assets/img/niku.png");
-  background-size: 20%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,10 +43,17 @@ export default {};
 
   .page {
     &-title {
-      margin-bottom: 50px;
-      font-size: 2rem;
+      font-size: 5rem;
       text-align: center;
     }
+    &-color {
+      color: #217df3;
+    }
+    &-subtitle {
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
     &-ul {
       display: flex;
       padding: 0;
@@ -53,6 +61,7 @@ export default {};
       list-style: none;
       align-items: center;
       flex-direction: column;
+      padding: 50px;
     }
 
     &-li {
@@ -131,9 +140,12 @@ export default {};
   color: white;
 }
 
-@media screen and (max-width: 600px) {
-  .page-container {
-    background-image: none;
+@media screen and (max-width: 500px) {
+  .page-title {
+    font-size: 3rem;
+  }
+  .page-subtitle {
+    font-size: 1rem;
   }
 }
 </style>
