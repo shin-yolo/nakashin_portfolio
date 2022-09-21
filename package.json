@@ -14,7 +14,7 @@
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bulma": "^0.8.2",
     "nuxt": "^2.0.0",
-    "vuetify": "^2.2.27"
+    "vuetify": "^2.6.10"
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
